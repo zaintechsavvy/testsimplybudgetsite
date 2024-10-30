@@ -18,13 +18,13 @@ const Hero = () => (
           variants={textVariant(1.1)}
           className={styles.heroHeading}
         >
-          Inroducing
+          SimplyBudget
         </motion.h1>
         <motion.div
           variants={textVariant(1.2)}
           className="flex flex-row items-center justify-center"
         >
-          <h1 className={styles.heroHeading}> SimplyBudget</h1>
+          <h1 className={styles.heroHeading}> </h1>
           
         </motion.div>
       </div>
@@ -35,7 +35,7 @@ const Hero = () => (
       >
         <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] sm:-top-[20px] -top-[10px]" />
         <img
-          src="/coverNN.png"
+          src="/coverNew.png"
           alt="cover"
           className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
         />
