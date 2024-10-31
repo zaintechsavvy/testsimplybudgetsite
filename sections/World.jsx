@@ -18,7 +18,7 @@ const World = () => (
       <TitleText
         title={(
           <>
-            Track friends around you and invite them to play together in the same world
+            People all around the world are using SimplyBudget to manage their finances!
           </>
         )}
         textStyles="text-center"

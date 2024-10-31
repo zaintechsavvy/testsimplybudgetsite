@@ -1,12 +1,12 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    imgUrl: '/mainscreenmockup.png',
+    title: 'Income & Expence Management',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
+    imgUrl: '/loyaltycardsmockup.png',
     title: 'The Upside Down',
   },
   {
@@ -35,36 +35,36 @@ export const startingFeatures = [
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Bills Manager',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Never worry again about bills piling up and getting charged heavy intrest! SimplyBudget has you covered.',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Loyalty Cards',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Add all your Loyalty Cards all in one place, never miss out on rewards and save more money!',
   },
 ];
 
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse and be happy :)',
+    title: 'Take control of your finances with SimplyBudget :)',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+        'Simplify your budgeting and gain control over your spending with ease. Discover the tools to help you manage your money confidently and meet your goals.',
   },
   {
     imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    title: '7 steps to become a budgeting pro with SimplyBudget',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+        'Learn how to easily track expenses, set savings goals, and achieve financial peace. Our tips make budgeting feel less overwhelming and more rewarding.',
   },
   {
     imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    title: 'One app to transform your financial life effortlessly',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'With SimplyBudget, you can manage your finances virtually from anywhere. Say goodbye to financial stress and hello to a brighter, secure future.',
   },
 ];
 

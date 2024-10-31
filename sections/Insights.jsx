@@ -17,7 +17,8 @@ const Insights = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <TypingText title="| Insight" textStyles="text-center" />
-      <TitleText title="Insights about metaverse" textStyles="text-center" />
+{/* Suggested code may be subject to a license. Learn more: ~LicenseLog:2689314435. */}
+      <TitleText title="Insights about budgeting and finance" textStyles="text-center" />
 
       <div className="mt-[50px] flex flex-col gap-[30px]">
         {insights.map((insight, i) => (
