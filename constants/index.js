@@ -27,9 +27,9 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading precaution to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Set up your SimplyBudget account and personalize your budget categories to fit your needs.',
+  'Connect your bank account for automatic expense and income tracking, or log transactions manually',
+  'Stay on track with real-time insights, bill reminders, and tips to help you meet your financial goals.',
 ];
 
 export const newFeatures = [

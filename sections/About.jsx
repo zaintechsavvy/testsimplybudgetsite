@@ -25,7 +25,7 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold"> SimplyBudget </span> is a new thing in the future, where you can enjoy the virtual world by feeling like it's really real, you can feel what you feel in this metaverse world, because this is really the <span className="font-extrabold">madness of the metaverse</span> of today, using only <span className="font-extrabold">VR</span> devices you can easily explore the metaverse world you want, turn your dreams into reality. Let's <span className="font-extrabold">explore</span> the madness of the metaverse by scrolling down
+        <span className="font-extrabold">SimplyBudget</span> is the future of teen finance, making budgeting easy and interactive. With <span className="font-extrabold">AI-driven</span> tools, it brings personal finance to life, helping you track and manage money effortlessly. Take control and turn financial goals into reality with <span className="font-extrabold">SimplyBudget</span>—your gateway to smart budgeting.
       </motion.p>
 
       <motion.img
