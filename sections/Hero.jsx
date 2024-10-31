@@ -19,7 +19,8 @@ const Hero = () => (
       
       <motion.h1
         variants={textVariant(1.1)}
-        className="-translate-y-4 animate-fade-in text-balance bg-gradient-to-br from-blue-200 from-60% to-white/90 bg-clip-text py-8 text-5xl font-bold leading-none tracking-tighter text-transparent opacity-0 [--animation-delay:200ms] dark:from-lightgreen-600 dark:to-white/20 sm:text-7xl sm:font-bold md:font-bold lg:font-bold"
+        className="-translate-y-4 animate-fade-in text-balance bg-gradient-to-br from-blue-300 from-90% to-white/90 bg-clip-text py-8 text-5xl font-bold leading-none tracking-tighter text-transparent opacity-0 [--animation-delay:200ms] dark:from-lightgreen-500 dark:to-white/30 sm:text-7xl sm:font-bold md:font-bold lg:font-bold"
+
       >
         SimplyBudget - The New Way
         <br className="hidden md:block" />{' '}

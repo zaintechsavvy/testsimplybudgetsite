@@ -1,29 +1,11 @@
 export const exploreWorlds = [
-  {
-    id: 'world-1',
-    imgUrl: '/mainscreenmockup.png',
-    title: 'Income & Expence Management',
-  },
+
   {
     id: 'world-2',
-    imgUrl: '/loyaltycardsmockup.png',
-    title: 'The Upside Down',
+    imgUrl: '/bankpage.png',
+    title: 'Your Privacy Is Always First',
   },
-  {
-    id: 'world-3',
-    imgUrl: '/planet-03.png',
-    title: 'Hueco Mundo',
-  },
-  {
-    id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
-  },
-  {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
-  },
+ 
 ];
 
 export const startingFeatures = [
