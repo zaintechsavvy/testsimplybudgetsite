@@ -32,7 +32,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
           />
         </div>
         <p className="font-normal text-[16px] leading-[20.16px] text-white mb-[16px]">
-          We are actively working on integration with Plaid to connect your accounts
+          We are actively working on integration with Plaid to connect your accounts!
         </p>
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
           {title}
