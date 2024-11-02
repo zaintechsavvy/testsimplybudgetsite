@@ -54,16 +54,16 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
-    link: 'https://twitter.com/VigneshGupta9',
+    link: 'https://x.com/zaintechsavvy',
   },
   {
-    name: 'linkedin',
-    url: '/linkedin.svg',
-    link: 'https://www.linkedin.com/in/vigneshgupta/',
+    name: 'Mail',
+    url: '/arrow.svg',
+    link: 'mailto:simplybudgetapp@gmail.com',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
-    link: 'https://www.instagram.com/_viggi.g_/',
+    link: 'https://www.instagram.com/zaintechsavvy',
   },
 ];
