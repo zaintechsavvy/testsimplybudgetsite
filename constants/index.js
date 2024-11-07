@@ -29,6 +29,21 @@ export const newFeatures = [
   },
 ];
 
+export const newCard = [
+  {
+    imgUrl: '/vrpano.svg',
+    title: 'Smarter Spending',
+    subtitle:
+        'Get live insights into your purchases with a SimplyBudget debit card.',
+  },
+  {
+    imgUrl: '/headset.svg',
+    title: 'Simply Pay Later',
+    subtitle:
+        'Introducing a new way of banking, buy a product and pay it later with a SimplyBudget debit card with 0% interest..',
+  },
+];
+
 export const insights = [
   {
     imgUrl: '/planet-06.png',

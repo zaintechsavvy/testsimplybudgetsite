@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { newFeatures } from '../constants';
 import { NewFeatures, TitleText, TypingText } from '../components';
+import { newCard } from '../constants';
 import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 
 const WhatsNew = () => (
@@ -67,7 +68,7 @@ const WhatsNew = () => (
         <TypingText title="| New Partership With Visa" />
         <TitleText title={<>Recieve A Visa Debit Card</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
-          {newFeatures.map((feature) => (
+          {newCard.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
           ))}
         </div>
