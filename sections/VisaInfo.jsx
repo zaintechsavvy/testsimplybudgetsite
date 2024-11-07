@@ -7,7 +7,7 @@ import { newFeatures } from '../constants';
 import { NewFeatures, TitleText, TypingText } from '../components';
 import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 
-const WhatsNew = () => (
+const VisaInfo = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
@@ -82,4 +82,4 @@ const WhatsNew = () => (
 
 
 
-export default WhatsNew;
+export default VisaInfo;

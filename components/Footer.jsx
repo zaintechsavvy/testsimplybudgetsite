@@ -19,16 +19,19 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Learn More About SimplyBudget
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]" onClick={() => window.location.href = '/second-page'}>
-<img
- src="/headset.svg"
- alt="headset"
- className="w-[24px] h-[24px] object-contain"
-/>
-<span className="font-normal text-[16px] text-white">
-Learn
-</span>
-</button>
+        <button
+          type="button"
+          className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
+        >
+          <img
+            src="/headset.svg"
+            alt="headset"
+            className="w-[24px] h-[24px] object-contain"
+          />
+          <span className="font-normal text-[16px] text-white">
+            Learn
+          </span>
+        </button>
       </div>
 
       <div className="flex flex-col">
@@ -39,7 +42,7 @@ Learn
             SimplyBudget
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright ©  2024 SimplyBudget. All rights reserved.
+            Copyright © 2024 SimplyBudget. All rights reserved.
           </p>
 
           <div className="flex gap-4">
@@ -60,3 +63,4 @@ Learn
 );
 
 export default Footer;
+
