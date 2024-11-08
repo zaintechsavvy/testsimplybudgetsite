@@ -1,5 +1,5 @@
-import { Footer, Navbar } from '../components';
-import {VisaInfo} from '../sections';
+import { Footer, Navbar } from '../../components';
+import {VisaInfo} from '../../sections';
 
 const SecondPage = () => (
   <div className="bg-primary-black overflow-hidden">
