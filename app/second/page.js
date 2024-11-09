@@ -1,13 +1,13 @@
 import { Footer, Navbar } from '../../components';
-import {Pricing} from '../../sections';
+import {VisaInfo} from '../../sections';
 
 const SecondPage = () => (
   <div className="bg-primary-black overflow-hidden">
      <Navbar />
     <div className="relative">
-      <Pricing />
+      <VisaInfo />
       <div className="gradient-04 z-0" />
-      <Pricing />
+      <VisaInfo />
     </div>
     <Footer />
   </div>

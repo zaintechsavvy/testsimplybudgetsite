@@ -5,6 +5,7 @@ import StartSteps from './StartSteps';
 import NewFeatures from './NewFeatures';
 import InsightCard from './InsightCard';
 import Footer from './Footer';
+import RealPricing from '/home/user/testsimplybudgetsite/sections/Pricing.tsx';
 // Suggested code may be subject to a license. Learn more: ~LicenseLog:3339166297.
 
 export {
@@ -16,4 +17,5 @@ export {
   ExploreCard,
   InsightCard,
   Footer,
+  RealPricing,
 };
