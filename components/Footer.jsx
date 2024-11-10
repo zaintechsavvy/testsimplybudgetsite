@@ -22,16 +22,8 @@ const Home = () => {
           <p className={`${styles.heroSubText}`}>
             
           </p>
-          <Link href="/about">
-            <button
-              type="button"
-              className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px] mt-10"
-            >
-              <span className="font-normal text-[16px] text-white">
-                Learn More
-              </span>
-            </button>
-          </Link>
+          
+
         </section>
 
         <motion.footer
@@ -42,8 +34,9 @@ const Home = () => {
           <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
             <div className="flex items-center justify-between flex-wrap gap-5">
               <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-                Learn More About SimplyBudget
+               
               </h4>
+              <Link href="/about">
               <button
                 type="button"
                 className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
@@ -54,9 +47,44 @@ const Home = () => {
                   className="w-[24px] h-[24px] object-contain"
                 />
                 <span className="font-normal text-[16px] text-white">
-                  Learn
-                </span>
+                  Pricing
+                </span>     
               </button>
+              </Link>
+
+              <Link href="/faq">
+              <button
+                type="button"
+                className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
+              >
+                <img
+                  src="/headset.svg"
+                  alt="headset"
+                  className="w-[24px] h-[24px] object-contain"
+                />
+                <span className="font-normal text-[16px] text-white">
+                  FAQ
+                </span>     
+              </button>
+              </Link>
+
+              <Link href="/second">
+              <button
+                type="button"
+                className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
+              >
+                <img
+                  src="/headset.svg"
+                  alt="headset"
+                  className="w-[24px] h-[24px] object-contain"
+                />
+                <span className="font-normal text-[16px] text-white">
+                  Features
+                </span>     
+              </button>
+              </Link>
+
+
             </div>
 
             <div className="flex flex-col">

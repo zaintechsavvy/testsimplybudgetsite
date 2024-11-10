@@ -29,7 +29,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "app/faq/page.js"  ],
   "exclude": [
     "node_modules"
   ]
