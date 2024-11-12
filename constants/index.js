@@ -1,12 +1,22 @@
 export const exploreWorlds = [
-
   {
-    id: 'world-2',
+    id: '',
     imgUrl: '/bankpage.png',
-    title: 'Your Privacy Is Always First',
+    title: '',
+    className: 'mx-auto flex justify-center flex-col items-center', // Centers the image
+    underlineClass: 'w-full h-[2px] bg-white/20 mt-4', // Adds an underline
   },
- 
 ];
+ 
+<div className="flex flex-col items-center w-full">
+  <img 
+    src="/bankpage.png" 
+    alt="Bank Page"
+    className="w-auto h-auto max-w-full mx-auto" 
+  />
+  <div className="w-full max-w-[80%] h-[2px] bg-white/20 mt-4"/>
+</div>
+
 
 export const startingFeatures = [
   'Set up your SimplyBudget account and personalize your budget categories to fit your needs.',
@@ -44,26 +54,7 @@ export const newCard = [
   },
 ];
 
-export const insights = [
-  {
-    imgUrl: '/planet-06.png',
-    title: 'Take control of your finances with SimplyBudget :)',
-    subtitle:
-        'Simplify your budgeting and gain control over your spending with ease. Discover the tools to help you manage your money confidently and meet your goals.',
-  },
-  {
-    imgUrl: '/planet-07.png',
-    title: '7 steps to become a budgeting pro with SimplyBudget',
-    subtitle:
-        'Learn how to easily track expenses, set savings goals, and achieve financial peace. Our tips make budgeting feel less overwhelming and more rewarding.',
-  },
-  {
-    imgUrl: '/planet-08.png',
-    title: 'One app to transform your financial life effortlessly',
-    subtitle:
-        'With SimplyBudget, you can manage your finances virtually from anywhere. Say goodbye to financial stress and hello to a brighter, secure future.',
-  },
-];
+
 
 export const socials = [
   {
@@ -72,13 +63,18 @@ export const socials = [
     link: 'https://x.com/zaintechsavvy',
   },
   {
-    name: 'Mail',
-    url: '/arrow.svg',
-    link: 'mailto:simplybudgetapp@gmail.com',
-  },
-  {
     name: 'instagram',
     url: '/instagram.svg',
     link: 'https://www.instagram.com/zaintechsavvy',
+  },
+  {
+    name: 'mail',
+    url: '/mail.svg',
+    link: 'mailto:simplybudgetapp@gmail.com',
+  },
+  {
+    name: 'FAQ',
+    url: '/circle-help1.svg',
+    link: '/faq',
   },
 ];

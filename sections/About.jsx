@@ -25,7 +25,7 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold">SimplyBudget</span> is the future of teen finance, making budgeting easy and interactive. With <span className="font-extrabold">AI-driven</span> tools, it brings personal finance to life, helping you track and manage money effortlessly. Take control and turn financial goals into reality with <span className="font-extrabold">SimplyBudget</span>—your gateway to smart budgeting.
+        <span className="font-extrabold">SimplyBudget</span> is an <span className="font-extrabold">AI-powered</span> personal finance management app designed to help teens track and manage their money with ease, making budgeting simple and accessible.
       </motion.p>
 
       <motion.img

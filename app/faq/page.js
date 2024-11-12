@@ -32,7 +32,7 @@ const FAQItem = ({ icon, question, answer, isOpen, onClick }) => (
       <div className={`
         p-2 
         rounded-xl 
-        ${isOpen ? 'bg-blue-500/20 text-blue-400' : 'bg-white/10 text-gray-400'}
+        ${isOpen ? 'bg-blue-500/20 text-blue-400' : 'bg-white/10 text-white'}
         transition-colors 
         duration-300
       `}>
@@ -54,7 +54,7 @@ const FAQItem = ({ icon, question, answer, isOpen, onClick }) => (
           duration-300 
           ${isOpen ? 'max-h-96 mt-4' : 'max-h-0'}
         `}>
-          <p className="text-gray-400 leading-relaxed">
+          <p className="text-white leading-relaxed">
             {answer}
           </p>
         </div>
@@ -63,7 +63,7 @@ const FAQItem = ({ icon, question, answer, isOpen, onClick }) => (
         className={`
           w-5 
           h-5 
-          text-gray-400 
+          text-white 
           transition-transform 
           duration-300
           flex-shrink-0
@@ -82,12 +82,12 @@ const FAQContent = () => {
     {
       icon: <Wallet className="w-5 h-5" />,
       question: "What is SimplyBudget?",
-      answer: "SimplyBudget is a comprehensive personal finance management platform that helps you track spending, create budgets, and achieve your financial goals. Using advanced AI technology, we automatically categorize your transactions, provide personalized insights, and help you make smarter financial decisions."
+      answer: "SimplyBudget is an AI-powered personal finance management app designed to help teens track and manage their money with ease, making budgeting simple and accessible."
     },
     {
       icon: <LineChart className="w-5 h-5" />,
       question: "How can SimplyBudget help me manage my finances?",
-      answer: "SimplyBudget offers several key features to help manage your finances: automatic transaction categorization, custom budget creation, bill tracking and reminders, investment portfolio monitoring, credit score tracking, and AI-powered insights that provide personalized recommendations for saving money and reaching your financial goals."
+      answer: "SimplyBudget offers several key features to help manage your finances: automatic transaction categorization, custom budget creation, bill tracking and reminders, manual transaction logging, automatic logo reconizaito , and AI-powered insights that provide personalized recommendations for saving money and reaching your financial goals."
     },
     {
       icon: <Crown className="w-5 h-5" />,

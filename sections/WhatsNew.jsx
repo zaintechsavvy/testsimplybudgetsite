@@ -75,8 +75,20 @@ const WhatsNew = () => (
       </motion.div>
 
       
+
+      
     </motion.div>
   </section>
+  <div className="relative">
+  <motion.img
+    variants={fadeIn('up', 'tween', 0.3, 1)}
+    src="/arrow-down.svg"
+    alt="arrow-down"
+    className="w-[30px] h-[40px] object-contain mt-[28px] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+  />
+</div>
+
+
   </section>
   
 );

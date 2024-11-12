@@ -17,15 +17,6 @@ const Home = () => {
     >
       <div className="gradient-02 z-0" />
       <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
-        <section className={`${styles.flexCenter} flex-col`}>
-          <h1 className={`${styles.heroHeading}`}> </h1>
-          <p className={`${styles.heroSubText}`}>
-            
-          </p>
-          
-
-        </section>
-
         <motion.footer
           variants={fadeIn('up', 'tween', 0.2, 1)}
           className={`${styles.xPaddings} py-8 relative`}
@@ -33,81 +24,51 @@ const Home = () => {
           <div className="footer-gradient" />
           <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
             <div className="flex items-center justify-between flex-wrap gap-5">
-              <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-               
+              <h4 className="font-bold md:text-[30px] text-[30px] text-white">
+                SimplyBudget
               </h4>
-              <Link href="/about">
-              <button
-                type="button"
-                className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
-              >
-                <img
-                  src="/headset.svg"
-                  alt="headset"
-                  className="w-[24px] h-[24px] object-contain"
-                />
-                <span className="font-normal text-[16px] text-white">
-                  Pricing
-                </span>     
-              </button>
-              </Link>
-
-              <Link href="/faq">
-              <button
-                type="button"
-                className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
-              >
-                <img
-                  src="/headset.svg"
-                  alt="headset"
-                  className="w-[24px] h-[24px] object-contain"
-                />
-                <span className="font-normal text-[16px] text-white">
-                  FAQ
-                </span>     
-              </button>
-              </Link>
-
-              <Link href="/second">
-              <button
-                type="button"
-                className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
-              >
-                <img
-                  src="/headset.svg"
-                  alt="headset"
-                  className="w-[24px] h-[24px] object-contain"
-                />
-                <span className="font-normal text-[16px] text-white">
-                  Features
-                </span>     
-              </button>
-              </Link>
-
-
+              <div className="flex gap-4">
+                {socials.map((social) => (
+                  <a key={social.name} href={social.link}>
+                    <img
+                      src={social.url}
+                      alt={social.name}
+                      className="w-[24px] h-[24px] object-contain"
+                    />
+                  </a>
+                ))}
+              </div>
             </div>
 
-            <div className="flex flex-col">
-              <div className="mb-[50px] h-[2px] bg-white opacity-10" />
-
-              <div className="flex items-center justify-between flex-wrap gap-4">
-                <h4 className="font-extrabold text-[24px] text-white">
-                  SimplyBudget
-                </h4>
-                <p className="font-normal text-[14px] text-white opacity-50">
-                  Copyright © 2024 SimplyBudget. All rights reserved.
-                </p>
-
-                <div className="flex gap-4">
-                  {socials.map((social) => (
-                    <a key={social.name} href={social.link}>
-                      <img
-                        src={social.url}
-                        alt={social.name}
-                        className="w-[24px] h-[24px] object-contain"
-                      />
-                    </a>
-                  ))}
+            <div className="flex items-center justify-between flex-wrap gap-4">
+              <p className="font-normal text-[14px] text-white opacity-50">
+                Copyright © 2024 SimplyBudget. All rights reserved.
+              </p>
+              <div className="flex gap-4">
+                
+                <div className="flex items-center h-fit py-2 sm:py-4 px-4 sm:px-6 bg-[#25618B] rounded-[32px] gap-[8px] sm:gap-[12px] text-sm sm:text-base cursor-pointer">
+                  <img
+                    src="/plus.svg"
+                    alt="features"
+                    className="w-[20px] h-[20px] sm:w-[24px] sm:h-[24px] object-contain"
+                  />
+                  <Link href="/second">
+                    <span className="font-normal text-[14px] sm:text-[16px] text-white whitespace-nowrap">
+                      Features
+                    </span>
+                  </Link>
+                </div>
+                <div className="flex items-center h-fit py-2 sm:py-4 px-4 sm:px-6 bg-[#25618B] rounded-[32px] gap-[8px] sm:gap-[12px] text-sm sm:text-base cursor-pointer">
+                  <img
+                    src="/circle-dollar-sign.svg"
+                    alt="pricing"
+                    className="w-[20px] h-[20px] sm:w-[24px] sm:h-[24px] object-contain"
+                  />
+                  <Link href="/about">
+                    <span className="font-normal text-[14px] sm:text-[16px] text-white whitespace-nowrap">
+                      Pricing
+                    </span>
+                  </Link>
                 </div>
               </div>
             </div>

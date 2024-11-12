@@ -23,7 +23,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
         {title}
       </h3>
     ) : (
-      <div className="absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
+      <div className="absolute bottom-0 p-8 justify-start w-full flex-col rounded-b-[24px]">
         <div className={`${styles.flexCenter} w-[60px] h-[60px] glassmorphism mb-[16px] rounded-[12px]`}>
           <img
             src="/headset.svg"
@@ -32,7 +32,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
           />
         </div>
         <p className="font-normal text-[16px] leading-[20.16px] text-white mb-[16px]">
-          We are actively working on integration with Plaid to connect your accounts!
+           
         </p>
         <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
           {title}

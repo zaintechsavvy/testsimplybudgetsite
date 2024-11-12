@@ -18,23 +18,23 @@ const Hero = () => (
       </div>
       
       <motion.h1
-        variants={textVariant(1.1)}
-        className="-translate-y-4 animate-fade-in text-balance bg-gradient-to-br from-blue-300 from-90% to-white/90 bg-clip-text py-8 text-5xl font-bold leading-none tracking-tighter text-transparent opacity-0 [--animation-delay:200ms] dark:from-lightgreen-500 dark:to-white/30 sm:text-7xl sm:font-bold md:font-bold lg:font-bold"
+  variants={textVariant(1.1)}
+  className="-translate-y-4 animate-fade-in text-balance bg-gradient-to-br from-blue-300 from-90% to-white/90 bg-clip-text py-8 text-2xl font-bold leading-none tracking-tighter text-transparent opacity-0 [--animation-delay:200ms] dark:from-lightgreen-500 dark:to-white/30 sm:text-3xl md:text-5xl lg:text-7xl"
+>
+  SimplyBudget - The New Way
+  <br className="hidden md:block" />{' '}
+  To Manage Your Finances
+</motion.h1>
 
-      >
-        SimplyBudget - The New Way
-        <br className="hidden md:block" />{' '}
-        To Manage Your Finances
-      </motion.h1>
+<motion.p
+      variants={textVariant(1.2)}
+      className="hidden mb-16 -translate-y-4 animate-fade-in text-balance text-base tracking-tight text-gray-300 opacity-0 [--animation-delay:400ms] md:block lg:text-2xl"
+    >
+      The only AI Finance Management App You Will Ever Need. 
+    </motion.p>
 
-      <motion.p
-        variants={textVariant(1.2)}
-        className="mb-16 -translate-y-4 animate-fade-in text-balance text-xl tracking-tight text-gray-300 opacity-0 [--animation-delay:400ms] md:text-2xl"
-      >
-        Discover SimplyBudget,
-        The New Way To Manage Your Finances
-      </motion.p>
-    </motion.div>
+
+</motion.div>
 
     <motion.div
       variants={slideIn('right', 'tween', 0.2, 1)}
