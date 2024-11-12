@@ -110,7 +110,7 @@ const RealPricing = () => {
         "Email support"
       ],
       buttonText: "Get Started",
-      onClick: () => window.location.href = "/signup"
+      onClick: () => window.location.href = "/downloadnow"
     },
     {
       title: "Plus",
@@ -124,7 +124,7 @@ const RealPricing = () => {
       ],
       isPopular: true,
       buttonText: "Start Free Trial",
-      onClick: () => window.location.href = "/signup"
+      onClick: () => window.location.href = "/downloadnow"
     },
     {
       title: "Pro",
@@ -137,7 +137,7 @@ const RealPricing = () => {
         "24/7 priority support"
       ],
       buttonText: "Start Free Trial",
-      onClick: () => window.location.href = "/signup"
+      onClick: () => window.location.href = "/downloadnow"
     },
     {
       title: "Enterprise",

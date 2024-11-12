@@ -109,7 +109,7 @@ const MainPrice = () => {
         "Email support"
       ],
       buttonText: "Get Started",
-      onClick: () => window.location.href = "/signup"
+      onClick: () => window.location.href = "/downloadnow"
     },
     {
       title: "Plus",
@@ -123,7 +123,7 @@ const MainPrice = () => {
       ],
       isPopular: true,
       buttonText: "Start Free Trial",
-      onClick: () => window.location.href = "/signup"
+      onClick: () => window.location.href = "/downloadnow"
     },
     {
       title: "Pro",
@@ -136,7 +136,7 @@ const MainPrice = () => {
         "24/7 priority support"
       ],
       buttonText: "Start Free Trial",
-      onClick: () => window.location.href = "/signup"
+      onClick: () => window.location.href = "/downloadnow"
     },
     {
       title: "Enterprise",
