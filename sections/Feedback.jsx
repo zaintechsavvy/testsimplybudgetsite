@@ -45,17 +45,57 @@ const Feedback = () => (
       
       <motion.div
         variants={fadeIn('up', 'tween', 0.3, 1)}
-        className="w-full flex justify-center mt-12"
+        className="w-full flex flex-col items-center gap-6 mt-12"
       >
-        <a
-          href="/legal"
-          className="group flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 transition-all duration-300 ease-in-out"
-        >
-          <span className="text-white/70 group-hover:text-white text-sm font-medium transition-colors duration-300">
-            View full legal terms of use and privacy policy
-          </span>
-          <ChevronRight className="w-4 h-4 text-white/50 group-hover:text-white transition-colors duration-300 group-hover:translate-x-0.5 transform" />
-        </a>
+        <div className="flex flex-wrap justify-center items-center gap-4">
+          <a 
+            href="https://www.producthunt.com/products/simplybudget?utm_source=badge-follow&utm_medium=badge&utm_souce=badge-simplybudget" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <img 
+              src="https://api.producthunt.com/widgets/embed-image/v1/follow.svg?product_id=609319&theme=neutral" 
+              alt="SimplyBudget - AI Finance Manager For Teens! | Product Hunt" 
+              width="250" 
+              height="54" 
+            />
+          </a>
+          
+          <a 
+            href="https://aitools.inc/tools/simply-budget?utm_source=embed-badge-simply-budget&utm_medium=embed&utm_campaign=embed-badge-featured" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <img 
+              src="https://aitools.inc/tools/simply-budget/embeds/v1/featured-badge.svg?theme=dark" 
+              alt="SimplyBudget | AI Tools" 
+              width="175" 
+              height="54" 
+            />
+          </a>
+        </div>
+
+        <div className="flex flex-wrap justify-center gap-4">
+          <a
+            href="/legal"
+            className="group flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 transition-all duration-300 ease-in-out"
+          >
+            <span className="text-white/70 group-hover:text-white text-sm font-medium transition-colors duration-300">
+              View full legal terms of use and privacy policy
+            </span>
+            <ChevronRight className="w-4 h-4 text-white/50 group-hover:text-white transition-colors duration-300 group-hover:translate-x-0.5 transform" />
+          </a>
+
+          <a
+            href="/downloadnow"
+            className="group flex items-center gap-2 px-6 py-3 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 transition-all duration-300 ease-in-out"
+          >
+            <span className="text-white/70 group-hover:text-white text-sm font-medium transition-colors duration-300">
+              Coming Soon
+            </span>
+            <ChevronRight className="w-4 h-4 text-white/50 group-hover:text-white transition-colors duration-300 group-hover:translate-x-0.5 transform" />
+          </a>
+        </div>
       </motion.div>
     </motion.div>
   </section>
