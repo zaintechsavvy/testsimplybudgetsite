@@ -87,7 +87,7 @@ const FAQContent = () => {
     {
       icon: <LineChart className="w-5 h-5" />,
       question: "How can SimplyBudget help me manage my finances?",
-      answer: "SimplyBudget offers several key features to help manage your finances: automatic transaction categorization, custom budget creation, bill tracking and reminders, manual transaction logging, automatic logo reconizaito , and AI-powered insights that provide personalized recommendations for saving money and reaching your financial goals."
+      answer: "SimplyBudget offers several key features to help manage your finances: automatic transaction categorization, custom budget creation, bill tracking and reminders, manual transaction logging, automatic logo reconization, and AI-powered insights that provide personalized recommendations for saving money and reaching your financial goals."
     },
     {
       icon: <Crown className="w-5 h-5" />,
@@ -107,7 +107,7 @@ const FAQContent = () => {
     {
       icon: <HelpCircle className="w-5 h-5" />,
       question: "How do I get support or contact SimplyBudget?",
-      answer: "We offer multiple support channels: 24/7 in-app chat support, email support at support@simplybudget.com, and an extensive knowledge base. Premium users also get access to priority phone support. Our typical response time is under 2 hours during business hours."
+      answer: "We offer multiple support channels: 24/7 in-app chat support, email support at zain@simplybudget.ca, and an extensive knowledge base. Premium users also get access to priority phone support. Our typical response time is under 2 hours during business hours."
     }
   ];
 
