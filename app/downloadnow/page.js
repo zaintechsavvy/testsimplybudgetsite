@@ -56,7 +56,7 @@ const DownloadPage = () => {
             SimplyBudget Beta
           </h1>
           <p className="text-white/60 text-xl max-w-2xl mx-auto mb-12">
-            Join the waitlist for early access to the most intuitive personal finance app. Be among the first to experience the future of budgeting.
+            SimplyBudget is currently going through a refresh, this brings new features and abilities to the SimplyBudget App. Join the waitlist for early access to the most intuitive personal finance app. Be among the first to experience the future of budgeting.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button 
