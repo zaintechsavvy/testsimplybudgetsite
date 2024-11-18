@@ -107,7 +107,7 @@ const FAQContent = () => {
     {
       icon: <HelpCircle className="w-5 h-5" />,
       question: "How do I get support or contact SimplyBudget?",
-      answer: "We offer multiple support channels: 24/7 in-app chat support, email support at zain@simplybudget.ca, and an extensive knowledge base. Premium users also get access to priority phone support. Our typical response time is under 2 hours during business hours."
+      answer: "We offer multiple support channels: 24/7 in-app chat support, email support at simplybudgetapp@gmail.com, and an extensive knowledge base. Premium users also get access to priority phone support. Our typical response time is under 2 hours during business hours."
     }
   ];
 

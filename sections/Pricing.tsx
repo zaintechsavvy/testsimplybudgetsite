@@ -150,7 +150,7 @@ const RealPricing = () => {
         "Training & onboarding"
       ],
       buttonText: "Contact Sales",
-      onClick: () => window.location.href = `mailto:zain@simplybudget.ca`
+      onClick: () => window.location.href = `mailto:simplybudgetapp@gmail.com`
     }
   ];
 
@@ -179,7 +179,7 @@ const RealPricing = () => {
               We're offering free subscriptions for those who can't afford it. Send us an email and we'll help you get started with SimplyBudget Plus, on us.
             </p>
             <button
-              onClick={() => window.location.href = `mailto:zain@simplybudget.ca?subject=Subscription Assistance Request`}
+              onClick={() => window.location.href = `mailto:simplybudgetapp@gmail.com?subject=Subscription Assistance Request`}
               className="py-3 px-6 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold transition-colors"
             >
               Learn More

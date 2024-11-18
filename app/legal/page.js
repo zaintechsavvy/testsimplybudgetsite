@@ -100,7 +100,7 @@ const LegalPage = () => {
                 <p>SimplyBudget reserves the right to modify these Terms of Use periodically. When updates are made, the "Effective Date" at the top of the Terms will be revised. Continued use of SimplyBudget after changes are posted signifies your acceptance of the updated Terms of Use.</p>
 
                 <h3 className="text-xl font-medium text-white/90">Contact Us</h3>
-                <p>If you have any questions, comments, or concerns regarding these Terms of Use, please reach out to SimplyBudget support at zain@simplybudget.ca.</p>
+                <p>If you have any questions, comments, or concerns regarding these Terms of Use, please reach out to SimplyBudget support at simplybudgetapp@gmail.com.</p>
               </div>
             </div>
           </div>
@@ -143,13 +143,13 @@ const LegalPage = () => {
                 <p>SimplyBudget uses <strong>Plaid</strong> to allow you to connect and view external financial accounts within the app. <strong>Plaid securely handles all sensitive financial data</strong>, and SimplyBudget only interacts with the information necessary to support its features. SimplyBudget does not store any bank or financial account information on its servers, and Plaid is solely responsible for the security and management of this data.</p>
 
                 <h3 className="text-xl font-medium text-white/90">5. Age Restrictions and Children's Privacy</h3>
-                <p>SimplyBudget is intended for users who are 13 years of age or older. We do not knowingly collect or store information from children under the age of 13. If we become aware that we have inadvertently collected information from a child under 13, we will take immediate steps to delete the information from our records. If you are a parent or guardian and believe your child under 13 has provided us with personal information, please contact us at zain@simplybudget.ca.</p>
+                <p>SimplyBudget is intended for users who are 13 years of age or older. We do not knowingly collect or store information from children under the age of 13. If we become aware that we have inadvertently collected information from a child under 13, we will take immediate steps to delete the information from our records. If you are a parent or guardian and believe your child under 13 has provided us with personal information, please contact us at simplybudgetapp@gmail.com.</p>
 
                 <h3 className="text-xl font-medium text-white/90">6. Changes to Our Privacy Policy</h3>
                 <p>SimplyBudget reserves the right to modify this Privacy Policy periodically. When updates are made, we will revise the "Effective Date" at the top of this policy. Continued use of SimplyBudget after changes are posted signifies your acceptance of the updated Privacy Policy.</p>
 
                 <h3 className="text-xl font-medium text-white/90">7. Contact Us</h3>
-                <p>If you have any questions, concerns, or requests regarding your personal information or this Privacy Policy, please contact us at zain@simplybudget.ca. Thank you for trusting SimplyBudget with your budgeting needs. We are committed to maintaining your privacy and security.</p>
+                <p>If you have any questions, concerns, or requests regarding your personal information or this Privacy Policy, please contact us at simplybudgetapp@gmail.com. Thank you for trusting SimplyBudget with your budgeting needs. We are committed to maintaining your privacy and security.</p>
               </div>
             </div>
           </div>
