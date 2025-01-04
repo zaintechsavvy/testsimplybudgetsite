@@ -49,15 +49,12 @@ const LegalPage = () => {
               <h2 className="text-2xl font-bold text-white">Terms & Conditions</h2>
             </div>
             <div className="prose prose-invert prose-sm max-w-none">
-              <p className="text-white/60">Last updated: November 11, 2024</p>
+              <p className="text-white/60">Last updated: January 04, 2025</p>
               <div className="space-y-6 text-white/80">
                 <p>Welcome to SimplyBudget. Please carefully review these Terms of Use before accessing or using our SimplyBudget application, website, or other related services (collectively referred to as "SimplyBudget" or the "Service"). By accessing or using SimplyBudget, you agree to these Terms of Use and our Privacy Policy. If you do not agree with these terms, please refrain from using the Service.</p>
 
                 <h3 className="text-xl font-medium text-white/90">Introduction to SimplyBudget</h3>
                 <p>SimplyBudget is a software application designed to help users track and manage their finances through budgeting tools, expense categorization, and financial insights. SimplyBudget is not a bank, financial institution, or credit union and does not provide financial, banking, or investment services. We do not issue credit, accept deposits, or offer loans or any other financial products. SimplyBudget is solely intended to provide tools that assist users in making personal financial decisions. It is not a substitute for financial advice from a licensed advisor.</p>
-
-                <h3 className="text-xl font-medium text-white/90">Eligibility</h3>
-                <p>To use SimplyBudget, you must be at least 13 years old. By accessing or using SimplyBudget, you confirm that you meet this age requirement and that any information you provide is accurate, truthful, and current.</p>
 
                 <h3 className="text-xl font-medium text-white/90">Account Security</h3>
                 <p>You are responsible for safeguarding your SimplyBudget account credentials. If you suspect any unauthorized use of your account or other security breaches, you agree to notify us immediately. SimplyBudget is not responsible for any losses or damages resulting from your failure to protect your account information.</p>
@@ -114,24 +111,22 @@ const LegalPage = () => {
               <h2 className="text-2xl font-bold text-white">Privacy Policy</h2>
             </div>
             <div className="prose prose-invert prose-sm max-w-none">
-              <p className="text-white/60">Last updated: November 11, 2024</p>
+              <p className="text-white/60">Last updated: January 04, 2025</p>
               <div className="space-y-6 text-white/80">
                 <p>Welcome to SimplyBudget! At SimplyBudget, we are committed to protecting your privacy and handling your personal information with care. This Privacy Policy explains how we collect, use, and protect your information when you use SimplyBudget (the "Service"). By using SimplyBudget, you agree to the terms outlined in this Privacy Policy. If you do not agree, please discontinue use of the Service.</p>
 
                 <h3 className="text-xl font-medium text-white/90">1. Information We Collect</h3>
                 <p>SimplyBudget collects limited personal information to provide you with a personalized budgeting experience. Specifically, we may collect:</p>
                 <ul className="list-disc pl-6 space-y-2">
-                  <li><strong>Name</strong>: Used to personalize your SimplyBudget account.</li>
-                  <li><strong>Age</strong>: Used for age verification and to tailor SimplyBudget's content.</li>
+                  <li><strong>Full Name</strong>: Used to personalize your SimplyBudget account.</li>
                   <li><strong>Email Address</strong>: Used for account setup, communication, and security-related notifications.</li>
                 </ul>
-                <p>SimplyBudget does not collect or store sensitive financial information, such as bank account numbers or transaction details. <strong>Plaid</strong> securely handles all financial data, including account connections and transaction details, on its secure platform. SimplyBudget cannot directly access or store your financial data. For more information on how Plaid handles your financial information, please review Plaid's Privacy Policy.</p>
+                <p>SimplyBudget does not collect or store sensitive financial information, such as bank account numbers or transaction details, all transaction details, loyalty cards, bills, etc... created within SimplyBudget is stored locally on users device to ensure privacy and security. <strong>Plaid</strong> securely handles all financial data, including account connections and transaction details, on its secure platform. SimplyBudget cannot directly access or store your financial data. For more information on how Plaid handles your financial information, please review Plaid's Privacy Policy. Plaid is not currently being used in SimplyBudget as of current effective date and will be a functionality added shortly.</p>
 
                 <h3 className="text-xl font-medium text-white/90">2. How We Use Your Information</h3>
                 <p>SimplyBudget uses your information to:</p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Personalize your experience on the app.</li>
-                  <li>Verify user eligibility to ensure compliance with age restrictions.</li>
                   <li>Send essential communications regarding your account or service updates.</li>
                 </ul>
                 <p>SimplyBudget does not sell, rent, or share your personal information with third parties for marketing purposes.</p>
@@ -141,9 +136,6 @@ const LegalPage = () => {
 
                 <h3 className="text-xl font-medium text-white/90">4. Third-Party Integrations</h3>
                 <p>SimplyBudget uses <strong>Plaid</strong> to allow you to connect and view external financial accounts within the app. <strong>Plaid securely handles all sensitive financial data</strong>, and SimplyBudget only interacts with the information necessary to support its features. SimplyBudget does not store any bank or financial account information on its servers, and Plaid is solely responsible for the security and management of this data.</p>
-
-                <h3 className="text-xl font-medium text-white/90">5. Age Restrictions and Children's Privacy</h3>
-                <p>SimplyBudget is intended for users who are 13 years of age or older. We do not knowingly collect or store information from children under the age of 13. If we become aware that we have inadvertently collected information from a child under 13, we will take immediate steps to delete the information from our records. If you are a parent or guardian and believe your child under 13 has provided us with personal information, please contact us at simplybudgetapp@gmail.com.</p>
 
                 <h3 className="text-xl font-medium text-white/90">6. Changes to Our Privacy Policy</h3>
                 <p>SimplyBudget reserves the right to modify this Privacy Policy periodically. When updates are made, we will revise the "Effective Date" at the top of this policy. Continued use of SimplyBudget after changes are posted signifies your acceptance of the updated Privacy Policy.</p>
