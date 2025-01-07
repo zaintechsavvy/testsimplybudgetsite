@@ -38,21 +38,26 @@ const LegalPage = () => {
       
       <Navbar />
 
-      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-        <div className="space-y-16">
-          {/* Terms & Conditions */}
-          <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8">
-            <div className="flex items-center gap-4 mb-6">
-              <div className="bg-gradient-to-br from-violet-600 to-cyan-600 w-12 h-12 rounded-xl flex items-center justify-center">
-                <FileText className="h-6 w-6 text-white" />
-              </div>
-              <h2 className="text-2xl font-bold text-white">Terms & Conditions</h2>
-            </div>
-            <div className="prose prose-invert prose-sm max-w-none">
-              <p className="text-white/60">Last updated: January 04, 2025</p>
-              <div className="space-y-6 text-white/80">
-                <p>Welcome to SimplyBudget. Please carefully review these Terms of Use before accessing or using our SimplyBudget application, website, or other related services (collectively referred to as "SimplyBudget" or the "Service"). By accessing or using SimplyBudget, you agree to these Terms of Use and our Privacy Policy. If you do not agree with these terms, please refrain from using the Service.</p>
 
+
+
+      <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+  <div className="space-y-16">
+    {/* Terms & Conditions */}
+    <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8">
+      <div className="flex items-center gap-4 mb-6">
+        <div className="bg-gradient-to-br from-violet-600 to-cyan-600 w-12 h-12 rounded-xl flex items-center justify-center">
+          <FileText className="h-6 w-6 text-white" />
+        </div>
+        <h2 className="text-2xl font-bold text-white">Terms & Conditions</h2>
+      </div>
+      <div className="prose prose-invert prose-sm max-w-none">
+        <p className="text-white/60">Last updated: January 07, 2025</p>
+        <div className="space-y-6 text-white/80">
+          <p>Welcome to SimplyBudget. Please carefully review these Terms of Use before accessing or using our SimplyBudget application, website, or other related services (collectively referred to as "SimplyBudget" or the "Service"). By accessing or using SimplyBudget, you agree to these Terms of Use and our Privacy Policy. If you do not agree with these terms, please refrain from using the Service.</p>
+          <p className="text-white/80">
+          By using this application, you agree to the Terms of Service outlined here. Please also refer to Apple's End User License Agreement (EULA) for further details, please refer to Apple's <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer" className="text-cyan-400 underline">Terms of Service</a>.
+          </p>
                 <h3 className="text-xl font-medium text-white/90">Introduction to SimplyBudget</h3>
                 <p>SimplyBudget is a software application designed to help users track and manage their finances through budgeting tools, expense categorization, and financial insights. SimplyBudget is not a bank, financial institution, or credit union and does not provide financial, banking, or investment services. We do not issue credit, accept deposits, or offer loans or any other financial products. SimplyBudget is solely intended to provide tools that assist users in making personal financial decisions. It is not a substitute for financial advice from a licensed advisor.</p>
 
@@ -111,9 +116,11 @@ const LegalPage = () => {
               <h2 className="text-2xl font-bold text-white">Privacy Policy</h2>
             </div>
             <div className="prose prose-invert prose-sm max-w-none">
-              <p className="text-white/60">Last updated: January 04, 2025</p>
+              <p className="text-white/60">Last updated: January 07, 2025</p>
               <div className="space-y-6 text-white/80">
-                <p>Welcome to SimplyBudget! At SimplyBudget, we are committed to protecting your privacy and handling your personal information with care. This Privacy Policy explains how we collect, use, and protect your information when you use SimplyBudget (the "Service"). By using SimplyBudget, you agree to the terms outlined in this Privacy Policy. If you do not agree, please discontinue use of the Service.</p>
+                <p>Welcome to SimplyBudget! At SimplyBudget, we are committed to protecting your privacy and handling your personal information with care. This Privacy Policy explains how we collect, use, and protect your information when you use SimplyBudget (the "Service"). By using SimplyBudget, you agree to the terms outlined in this Privacy Policy & Apple's (EULA) <p className="text-white/80">
+          By using this application, you agree to the Terms of Service outlined here. Please also refer to Apple's End User License Agreement (EULA) for further details, please refer to Apple's <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer" className="text-cyan-400 underline">Terms of Service</a>.
+          </p>If you do not agree, please discontinue use of the Service.</p>
 
                 <h3 className="text-xl font-medium text-white/90">1. Information We Collect</h3>
                 <p>SimplyBudget collects limited personal information to provide you with a personalized budgeting experience. Specifically, we may collect:</p>
